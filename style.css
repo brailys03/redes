@@ -1,0 +1,31 @@
+body{
+    background: url(1.jpeg) no-repeat;
+    background-position: top top;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#container{
+    width: 300px;
+    height:250px;
+    text-align: center;
+    line-height: 50px;
+    margin:0px auto;
+   
+}
+nav:hover {
+    
+    background: url(5.jpeg) no-repeat;
+    transform: scale(1.1);
+    background-size: contain;
+    background-position: center center;
+    background-attachment: fixed;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+
+header h1{
+    color: white;
+}
